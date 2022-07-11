@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
+
+	<content>
+		<p>Hello world</p>
+		<!-- insert hello world here -->
+
+		<img src='https://static01.nyt.com/images/2021/11/23/business/00cutecats-disinfo-promo/00cutecats-disinfo-promo-facebookJumbo.png'
+		id='image'
+		onmouseover="setNewImage()">
+		
+		<p> Welcome to our page!</p>
+
+		<h2>Contact Us</h2>
+		<form id="contact">
+			Your name:
+			<input type="text">
+
+			Message:
+			<input type="textarea">
+
+			<input type="submit">
+
+<div class="checkboxes">
+	<ul>
+		<li><input type="checkbox" name="box1" id="box1"></li>
+		<label for="box1">Google</label><br>
+		<li><input type="checkbox" name="box2" id="box2"></li>
+		<label for="box2">A friend</label><br>
+		<li><input type="checkbox" name="box3" id="box3"></li>
+		<label for="box3">Other</label><br>
+	</ul>
+	
+</div>
+		</form>
+
+	</content>
+
+
+	<script src="about.js"></script>
+
+</body>
+</html>
